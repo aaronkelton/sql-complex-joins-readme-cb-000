@@ -47,7 +47,7 @@ Let's look at an inner join.
 SELECT *
 FROM Teachers
 INNER JOIN Students
-ON Teacher.teacher_id = Student.teacher_id;
+ON Teachers.teacher_id = Students.teacher_id;
 ```
 
 This query returns only the teacher with the `id = 1` because student 2 is in the first teacher's class.
