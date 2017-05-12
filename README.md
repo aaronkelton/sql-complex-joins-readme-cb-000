@@ -76,7 +76,7 @@ This is the most common outer join, and the one you'll use most often. This retu
 SELECT *
 FROM Teachers
 LEFT OUTER JOIN Students
-ON Teacher.teacher_id = Student.teacher_id;
+ON Teachers.teacher_id = Students.teacher_id;
 ```
 
 ```
@@ -95,7 +95,7 @@ As you might imagine, this is the same as the Left Outer Join with the minor dif
 SELECT *
 FROM Teachers
 RIGHT OUTER JOIN Students
-ON Teacher.teacher_id = Student.teacher_id;
+ON Teachers.teacher_id = Students.teacher_id;
 ```
 
 ```
@@ -113,7 +113,7 @@ The full ***returns all of the rows from the all tables***.
 SELECT *
 FROM Teachers
 FULL OUTER JOIN Students
-ON Teacher.teacher_id = Student.teacher_id;
+ON Teachers.teacher_id = Students.teacher_id;
 ```
 
 ```
